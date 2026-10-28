@@ -1,4 +1,4 @@
-[![CI](https://github.com/Curs3W4ll/NeoKit/workflows/CI/badge.svg)](https://github.com/Curs3W4ll/NeoKit/actions)
+[![CI](https://github.com/corthx/NeoKit/workflows/CI/badge.svg)](https://github.com/corthx/NeoKit/actions)
 
 # NeoKit
 
@@ -14,20 +14,20 @@ At the moment, this plugin is under construction. Expect changes to the way it i
 Using [Vim plug](https://github.com/junegunn/vim-plug):
 
 ```vim
-Plug 'Curs3W4ll/neokit'
+Plug 'corthx/neokit'
 ```
 
 Using [Packer](https://github.com/wbthomason/packer.nvim):
 
 ```lua
-use "Curs3W4ll/neokit"
+use "corthx/neokit"
 ```
 
 Using [Lazy](https://github.com/folke/lazy.nvim):
 
 ```lua
 require("lazy").setup({
-    "Curs3W4ll/NeoKit",
+    "corthx/NeoKit",
 })
 ```
 
@@ -49,14 +49,14 @@ print(str.ensureLastChar("Hello", "!")) -- Hello!
 
 ## Modules
 
-You can find more details about modules at https://curs3w4ll.github.io/NeoKit/
+You can find more details about modules at https://corthx.github.io/NeoKit/
 
-- [`neokit.array`](https://curs3w4ll.github.io/NeoKit/modules/array.html)
-- [`neokit.colors`](https://curs3w4ll.github.io/NeoKit/modules/colors.html)
-- [`neokit.fs`](https://curs3w4ll.github.io/NeoKit/modules/fs.html)
-- [`neokit.str`](https://curs3w4ll.github.io/NeoKit/modules/str.html)
-- [`neokit.table`](https://curs3w4ll.github.io/NeoKit/modules/table.html)
-- [`neokit.vim`](https://curs3w4ll.github.io/NeoKit/modules/vim.html)
+- [`neokit.array`](https://corthx.github.io/NeoKit/modules/array.html)
+- [`neokit.colors`](https://corthx.github.io/NeoKit/modules/colors.html)
+- [`neokit.fs`](https://corthx.github.io/NeoKit/modules/fs.html)
+- [`neokit.str`](https://corthx.github.io/NeoKit/modules/str.html)
+- [`neokit.table`](https://corthx.github.io/NeoKit/modules/table.html)
+- [`neokit.vim`](https://corthx.github.io/NeoKit/modules/vim.html)
 
 # Contributing
 
@@ -113,7 +113,7 @@ Each time new code is pushed on the `main` branch, the formatter will be launche
 
 ### Documentation generation
 
-Each time new code is pushed on the `main` branch, the workflow will automatically generate a new version of the HTML documentation and publish it [here](https://curs3w4ll.github.io/NeoKit/).
+Each time new code is pushed on the `main` branch, the workflow will automatically generate a new version of the HTML documentation and publish it [here](https://corthx.github.io/NeoKit/).
 
 ### Mandatory checks
 
